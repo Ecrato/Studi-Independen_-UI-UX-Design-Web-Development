@@ -10,8 +10,8 @@ function App() {
           <div className="d-flex flex-column">
 
             <div className="profile">
-              <a href="https://www.instagram.com/mrdani09/" target="_blank"><img src="assets/img/profile-img.jpg" alt="" className="img-fluid rounded-circle"/></a>
-              <h1 className="text-light text-center"><a href="index.html">Muhammad Rachmadani</a></h1>
+              <a href="#hero"><img src="assets/img/profile-img.jpg" alt="" className="img-fluid rounded-circle"/></a>
+              <h1 className="text-light text-center"><a href="#about">Muhammad Rachmadani</a></h1>
               <div className="social-links mt-3 text-center">
                 <a href="https://www.facebook.com/muhammad.rachmadani.5" target="_blank" className="facebook"><i className="bx bxl-facebook"></i></a>
                 <a href="https://www.instagram.com/mrdani09/" target="_blank" className="instagram"><i className="bx bxl-instagram"></i></a>
@@ -185,7 +185,7 @@ function App() {
                   <h3 className="resume-title">Experience</h3>
                   <div className="resume-item">
                     <h4>Video Animation</h4>
-                    <h5>2019 - Present</h5>
+                    <h5>Februari - Juni 2023</h5>
                     <p><em>PT Telekomunikasi Indonesia, Bandung, Jawa Barat </em></p>
                     <ul>
                       <li>Membuat animasi Motion Graphic untuk eksperimentasi pembelajaran kepada siswa SMK, Karyawan, dan Masyarakat. </li>
@@ -196,7 +196,7 @@ function App() {
                   </div>
                   <div className="resume-item">
                     <h4>Graphic designer</h4>
-                    <h5>2017 - 2018</h5>
+                    <h5>September - Desember 2019</h5>
                     <p><em>PT SanFai Property, Depok, Jawa Barat</em></p>
                     <ul>
                       <li>Mengembangkan berbagai program pemasaran (logo, brosur, infografis, presentasi, dan iklan).</li>
@@ -397,7 +397,7 @@ function App() {
                 <div class="error-message"></div>
                 <div class="sent-message">Your message has been sent. Thank you!</div>
               </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
+              <a href="https://wa.me/+62895331355425"><div class="text-center"><button type="submit">Send Message</button></div></a>
             </form>
           </div>
 
